@@ -38,25 +38,25 @@ export default function Login({setToken , token , setName,setUserId}) {
                 hestory.push("/hotels")
             },2500)
         } catch (error) {
-            if (error.response.status === 404) {
-                console.log(error.response);
-                setStateLogin("خطا في اسم المستخدم او كلمة المرور")
-                setShowWartinig(true)
-                setTimeout(()=>{
-                    setStateLogin("")
-                    setShowWartinig(false)
-                } , 1500)
+            // if (error.response.status === 404) {
+            //     // console.log(error.response);
+            //     setStateLogin("خطا في اسم المستخدم او كلمة المرور")
+            //     setShowWartinig(true)
+            //     setTimeout(()=>{
+            //         setStateLogin("")
+            //         setShowWartinig(false)
+            //     } , 1500)
 
-            }else if(error.response.status === 403){
-                console.log(error.response);
-                setStateLogin("خطا في اسم المستخدم او كلمة المرور")
-                setShowWartinig(true)
-                setTimeout(()=>{
-                    setStateLogin("")
-                    setShowWartinig(false)
-                } , 1500)
+            // }else if(error.response.status === 403){
+            //     console.log(error.response);
+            //     setStateLogin("خطا في اسم المستخدم او كلمة المرور")
+            //     setShowWartinig(true)
+            //     setTimeout(()=>{
+            //         setStateLogin("")
+            //         setShowWartinig(false)
+            //     } , 1500)
                
-            }
+            // }
         }
        
 
