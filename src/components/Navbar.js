@@ -34,7 +34,7 @@ export default function Navbar({token , setToken , setName , name , setUserId}) 
         }else{
             return <>
             <ul>
-                <Link id = "link-nav" to="/Home">لرئيسية</Link>
+                <Link id = "link-nav" to="/">لرئيسية</Link>
             </ul>
             <ul>
                 <Link id = "link-nav" to="/login">تسجيل دخول</Link>
