@@ -1,0 +1,241 @@
+#form {
+    width: 70%;
+    height: 350px;
+    margin: auto;
+    background-color: rgba(235, 230, 230, 0.678);
+}
+
+.warning{
+    width: 400px;
+    margin: auto;
+    color: red;
+    border: 2px solid red;
+    background-color: rgba(255, 255, 255, 0.836);
+}
+
+
+#login { 
+    padding: 5px;
+    width: 70%;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    
+
+   
+}
+
+#login Button { 
+    width: 100px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+#login Input { 
+    width: 350px;
+    margin: auto;   
+    padding: 10px;
+    margin-top: 3px;
+    border-radius: 5px;
+}
+
+.navbaritems{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+
+#navbar{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 100px;
+}
+
+#navbar ul Link{
+    color: wheat;
+    font-size: large;
+}
+
+#warning-booking-select{
+    width: 100%;
+    background-color: rgb(155, 241, 159);
+    border: 1px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    font-size: 20px;
+}
+
+body{
+    background: url("https://images.pexels.com/photos/1334605/pexels-photo-1334605.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") ;
+    /* background-image: url("https://images.pexels.com/photos/6474532/pexels-photo-6474532.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"); */
+    /* background-repeat: no-repeat;
+    background-size: 1200px; */
+    
+}
+.home{
+    background-color: rgba(230, 218, 218, 0.514);
+    text-align: center;
+    width: 80%;
+    padding: 15px;
+    margin: auto;
+    margin-top: 15px;
+    font-size: x-large;
+    border-radius: 10px;
+    color: black;
+}
+
+
+#link-nav{
+    color: wheat;
+    font-size: 15px;
+}
+#link-nav:link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(7, 7, 7);
+    padding: 10px;
+    
+    border-radius: 10px;
+    border: 1px solid white;
+    transition: 0.5s;
+}
+
+#link-nav:hover {
+    color: rgb(2, 2, 2);
+    background-color: rgb(250, 248, 248);
+}
+
+#container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1px;
+}
+
+#courses{
+    width: 100%;
+    display: flex;
+    margin-top: 5px;
+}
+
+#courses-all{
+    width: 600px;
+    height: 305px;
+    margin-top: 5px;
+    border: 1px solid black;
+    /* position: relative; */
+    background-color: rgba(255, 255, 255, 0.76);
+    padding: 20px;
+    border-radius: 5px;
+  
+    
+}
+
+.idBook{
+        width: 80%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+#booking-ob{
+    width: 150px;
+    margin-top: 5px;
+    margin: auto;
+
+}
+#booking-ob *{
+    margin-top: 5px;
+}
+
+.card{
+    width: 70%;
+    margin: auto;
+}
+
+#card-booking{
+    display: flex;
+}
+
+ #btn{
+    width:  150px;
+    height: 50px;
+    margin: auto;
+ }
+
+
+#element{
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    width: 100px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.opt{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 2px black dashed;
+    padding: 5px;
+}
+
+#courses img {
+    width: 300px;
+    height: 150px;
+}
+
+#btn-x{
+    width: 40px;
+    padding: 2px;
+    position:absolute;
+    right: 1px;
+    background-color: red;
+    color: blanchedalmond;
+}
+
+
+#btn-u{
+    width: 46px;
+    padding: 2px;
+    position:absolute;
+    right: 54px;
+    background-color: rgb(8, 104, 5);
+    color: blanchedalmond;
+}
+
+.button-opt{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+/* 
+#img1{
+    background: url(https://cf.bstatic.com/xdata/images/city/540x270/691303.webp?k=0d2a322…&o=) no-repeat center center;
+    background-size: cover;
+} */
