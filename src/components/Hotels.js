@@ -31,7 +31,7 @@ function Hotels({token ,userId , printLog}) {
   useEffect(() => {
     const getData = async () => {
         console.log(token);
-        const respone = await axios.get("http://project-booking-backend.herokuapp.com/hotel" , {headers: { authorization: `Bearer ${token}` }})
+        const respone = await axios.get("https://project-booking-backend.herokuapp.com/hotel" , {headers: { authorization: `Bearer ${token}` }})
         setData(respone.data); 
         // console.log(respone.data);
     }
