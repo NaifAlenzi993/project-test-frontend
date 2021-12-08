@@ -68,7 +68,7 @@ function Hotels({token ,userId , printLog}) {
 
   const updateData = async (id) => {
     // console.log(id);
-    const respone = await axios.put("http://project-booking-backend.herokuapp.com/hotel/" , {
+    const respone = await axios.put("https://project-booking-backend.herokuapp.com/hotel/" , {
       idold : id , 
       name : nameUp , 
       description : descriptionUp , 

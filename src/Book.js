@@ -11,7 +11,7 @@ export default function Book({token,userId}) {
     useEffect(() => {
         const getData = async () => {
             // console.log(token);
-            const respone = await axios.get("http://project-booking-backend.herokuapp.com/book" , {headers: { authorization: `Bearer ${token}` }})
+            const respone = await axios.get("https://project-booking-backend.herokuapp.com/book" , {headers: { authorization: `Bearer ${token}` }})
             setBookd(respone.data); 
             //  console.log(respone.data);
             //  console.log(userId);
@@ -22,7 +22,7 @@ export default function Book({token,userId}) {
 
 
   const deletbook= async (id)=>{
-    const respone = await axios.delete("http://project-booking-backend.herokuapp.com/book/"+id , {headers: { authorization: `Bearer ${token}` }})
+    const respone = await axios.delete("https://project-booking-backend.herokuapp.com/book/"+id , {headers: { authorization: `Bearer ${token}` }})
         setBookd(respone.data); 
         console.log(respone.data);
        

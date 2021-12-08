@@ -27,7 +27,7 @@ export default function Navbar({token , setToken , setName , name , setUserId}) 
                 <Link id = "link-nav" to="/book">حجوزاتي</Link>
             </ul>
             <ul>
-                <Link onClick={()=>{logout()}} id = "link-nav" to="/login"> logout</Link>
+                <Link style={{ paddingLeft: "5px" }} onClick={()=>{logout()}} id = "link-nav" to="/login"> تسجيل الخروج</Link>
             </ul>
             
             </>

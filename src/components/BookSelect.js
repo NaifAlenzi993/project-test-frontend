@@ -12,7 +12,7 @@ export default function BookSelect({token,userId}) {
     const [bool, setBool] = useState(false)
     useEffect(() => {
 
-        axios.get(`http://project-booking-backend.herokuapp.com/bookselect/${id}` , 
+        axios.get(`https://project-booking-backend.herokuapp.com/bookselect/${id}` , 
         {headers: { authorization: `Bearer ${token}` }}
         )
         .then(res => {
@@ -24,7 +24,7 @@ export default function BookSelect({token,userId}) {
     }, [token])
 
     const addBook=async(idHotel)=>{
-    const respons =await axios.post("http://project-booking-backend.herokuapp.com/book", 
+    const respons =await axios.post("https://project-booking-backend.herokuapp.com/book", 
     {
        name: bookSelect.name ,
        startData: inputstart,
