@@ -14,7 +14,7 @@ export default function Signup() {
     const hestory = useHistory()
     const onclickSignup = async()=> {
        try {
-        const response = await axios.post("http://project-booking-backend.herokuapp.com/signUp" , {
+        const response = await axios.post("https://project-booking-backend.herokuapp.com/signUp" , {
             name: inputUsername ,
             email: inputEmail ,
             password: inputPassword
